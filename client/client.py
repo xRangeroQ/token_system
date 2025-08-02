@@ -6,7 +6,7 @@ token=""
 
 clientudp=socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
-clientudp.sendto(token.encode("utf-8"), ("192.168.95.137", 8081))
+clientudp.sendto(token.encode("utf-8"), ("yourip", 8081))
 
 data, address=clientudp.recvfrom(1024)
 print(data, address)
