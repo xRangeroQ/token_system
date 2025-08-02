@@ -1,3 +1,7 @@
+# Copyright (c) 2025 xRangeroQ
+# Licensed under the MIT License. See LICENSE file for details.
+
+
 # --| LIBRARIES |--
 import socket
 import threading
@@ -246,3 +250,4 @@ def Start():
 # --| Start Script |--
 if __name__=="__main__":
     Start()
+
